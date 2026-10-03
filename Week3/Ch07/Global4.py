@@ -1,0 +1,10 @@
+def scope_test(a):
+    a = 1  
+    print("함수 내 a의 값: ", a)
+    
+a = 0 
+print("함수 밖 a의 값: ", a)
+scope_test(a)
+print("함수 호출 후 a의 값: ", a)
+
+    
